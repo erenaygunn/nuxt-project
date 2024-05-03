@@ -4,6 +4,7 @@
     <IntroCarousel />
     <Services />
     <Property />
+    <Agents />
 </template>
 
 <script setup>
