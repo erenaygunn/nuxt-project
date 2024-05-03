@@ -61,7 +61,22 @@
             imageAlt: 'Post 4',
             link: 'blog-single.html',
             date: '18 Sep. 2017'
-          }
+          },
+          {
+            category: 'House',
+            title: 'House is coming new',
+            imageSrc: 'img/post-2.jpg',
+            imageAlt: 'Post 1',
+            link: 'blog-single.html',
+            date: '18 Sep. 2017'
+          },{
+            category: 'Park',
+            title: 'Park is coming new',
+            imageSrc: 'img/post-7.jpg',
+            imageAlt: 'Post 3',
+            link: 'blog-single.html',
+            date: '18 Sep. 2017'
+          },
         ]
       };
     }

@@ -1,5 +1,4 @@
 <template>
-    <div class="carousel-item-c">
       <div class="card-box-b card-shadow news-box">
         <div class="img-box-b">
           <img :src="post.imageSrc" :alt="post.imageAlt" class="img-b img-fluid">
@@ -20,7 +19,6 @@
           </div>
         </div>
       </div>
-    </div>
   </template>
   
   <script>
