@@ -5,6 +5,7 @@
     <Services />
     <Property />
     <Agents />
+    <News />
 </template>
 
 <script setup>
