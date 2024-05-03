@@ -2,6 +2,8 @@
     <SearchProperty />
     <Navbar />
     <IntroCarousel />
+    <Services />
+    <Property />
 </template>
 
 <script setup>
