@@ -57,5 +57,10 @@ export default {
     Navigation,
     Contact,
   },
+  data() {
+        return {
+            summaryItems: [], 
+        };
+    },
 };
 </script>

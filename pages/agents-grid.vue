@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <Pagination :currentPage="currentPage" :pageCount="pageCount" @page-change="handlePageChange" />
+                <Pagination :currentPage="currentPage" :pageCount="pageCount"/>
             </div>
         </div>
       </div>
@@ -22,12 +22,6 @@
     components: {
       AgentCard,
       Pagination
-    },
-    props: {
-      agents: {
-        type: Array,
-        required: true
-      },
     },
     data() {
       return {

@@ -1,7 +1,7 @@
 <template>
     <li :class="{'comment-children': isChild}">
       <div class="comment-avatar">
-        <img :src="comment.avatar" :alt="img">
+        <img :src="comment.avatar" alt="img">
       </div>
       <div class="comment-details">
         <h4 class="comment-author">{{ comment.author }}</h4>
