@@ -2,6 +2,7 @@
     <SearchProperty />
     <Navbar />
     <NuxtPage />
+    <Footer />
 </template>
 
 <script setup>
