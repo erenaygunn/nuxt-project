@@ -30,21 +30,21 @@
 <script setup>
   const items = [
     {
-      image: 'img/slide-1.jpg',
+      image: '/img/slide-1.jpg',
       location: 'Doral, Florida\n78345',
       number: 204,
       street: 'Mount\nOlive Road Two',
       price: 'rent | $ 12.000'
     },
     {
-      image: 'img/slide-2.jpg',
+      image: '/img/slide-2.jpg',
       location: 'Doral, Florida\n78345',
       number: 204,
       street: 'Rino\nVenda Road Five',
       price: 'rent | $ 12.000'
     },
     {
-      image: 'img/slide-3.jpg',
+      image: '/img/slide-3.jpg',
       location: 'Doral, Florida\n78345',
       number: 204,
       street: 'Alira\nRoan Road One',

@@ -1,3 +1,4 @@
 <template>
     <IntroSingle />
+    <AboutSection />
 </template>
