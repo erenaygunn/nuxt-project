@@ -7,6 +7,7 @@
     <Agents />
     <News />
     <Testimonials />
+    <Footer />
 </template>
 
 <script setup>
