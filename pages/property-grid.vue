@@ -15,7 +15,6 @@
                 </form>
               </div>
             </div>
-        
             <PropertyCard v-for="(property, index) in properties" :key="index" :imageSrc="property.imageSrc"
             :propertyName="property.propertyName"
             :propertyLink="property.propertyLink"
@@ -25,16 +24,15 @@
             :propertyBeds="property.propertyBeds"
             :propertyBaths="property.propertyBaths"
             :propertyGarages="property.propertyGarages" />
-            <Pagination :pageCount="pageCount" />
-        
           </div>
+          <Pagination :pageCount="pageCount" />
         </div>
     </section>
 </template>
 
 <script>
 import PropertyCard from '@/components/Property/PropertyCard.vue';
-import Pagination from '@/components/Property/Pagination.vue';
+import Pagination from '@/components/Pagination.vue';
 
 export default {
   components: {

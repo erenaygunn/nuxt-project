@@ -18,7 +18,7 @@
 
 <script>
 import NewsCard from "../components/News/NewsCard.vue";
-import Pagination from "../components/Property/Pagination.vue";
+import Pagination from "../components/Pagination.vue";
 
 export default {
   components: {
