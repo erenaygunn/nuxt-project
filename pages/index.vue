@@ -6,6 +6,7 @@
     <Property />
     <Agents />
     <News />
+    <Testimonials />
 </template>
 
 <script setup>
