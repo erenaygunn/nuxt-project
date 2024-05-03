@@ -9,4 +9,5 @@ export default defineNuxtConfig({
     '~/lib/owlcarousel/assets/owl.carousel.min.css',
     '~/css/style.css'
   ],
+  
 })
