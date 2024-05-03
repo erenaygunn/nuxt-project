@@ -1,5 +1,5 @@
 <template lang="">
-    <IntroSingle title="Our Amazing Properties" breadcrumb="Properties Grid" />
+    <IntroSingle title="Our Amazing Properties" breadcrumb="Properties Grid" text="Grid Properties"/>
     <section class="property-grid grid">
         <div class="container">
           <div class="row">

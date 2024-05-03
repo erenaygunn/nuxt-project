@@ -5,6 +5,7 @@
         <div class="col-md-12 col-lg-8">
           <div class="title-single-box">
             <h1 class="title-single">{{ title }}</h1>
+            <span>{{ text }}</span>
           </div>
         </div>
         <div class="col-md-12 col-lg-4">
@@ -31,6 +32,10 @@ export default {
     title: {
       type: String,
       required: true
+    },
+    text: {
+      type: String,
+      required: false
     },
     breadcrumb: {
       type: String,
