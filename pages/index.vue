@@ -5,5 +5,4 @@
     <Agents />
     <News />
     <Testimonials />
-    <Footer />
 </template>
