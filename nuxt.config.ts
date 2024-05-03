@@ -8,5 +8,5 @@ export default defineNuxtConfig({
     '~/lib/ionicons/css/ionicons.min.css',
     '~/lib/owlcarousel/assets/owl.carousel.min.css',
     '~/css/style.css'
-  ]
+  ],
 })
