@@ -12,14 +12,14 @@ export default defineNuxtConfig({
   app: {
     head: {
       script: [
-        { src: '_nuxt/lib/jquery/jquery.min.js'},
-        { src: '_nuxt/lib/jquery/jquery-migrate.min.js'},
-        { src: '_nuxt/lib/popper/popper.min.js'},
-        { src: '_nuxt/lib/bootstrap/js/bootstrap.min.js', type: 'module'},
-        { src: '_nuxt/lib/easing/easing.min.js' },
-        { src: '_nuxt/lib/owlcarousel/owl.carousel.min.js'},
-        { src: '_nuxt/lib/scrollreveal/scrollreveal.min.js'},
-        { src: '_nuxt/js/main.js' },
+        { src: '~/lib/jquery/jquery.min.js'},
+        { src: '~/lib/jquery/jquery-migrate.min.js'},
+        { src: '~/lib/popper/popper.min.js'},
+        { src: '~/lib/bootstrap/js/bootstrap.min.js', type: 'module'},
+        { src: '~/lib/easing/easing.min.js' },
+        { src: '~/lib/owlcarousel/owl.carousel.min.js'},
+        { src: '~/lib/scrollreveal/scrollreveal.min.js'},
+        { src: '~/js/main.js' },
       ],
     },
   },
