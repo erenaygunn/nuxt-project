@@ -23,13 +23,4 @@ export default defineNuxtConfig({
       ],
     },
   },
-  vite: {
-    define: {
-      'process.env.DEBUG': false,
-      __NUXT_ASYNC_CONTEXT__: true
-    },
-  },
-  experimental: {
-    asyncContext: false,
-  },
 })
