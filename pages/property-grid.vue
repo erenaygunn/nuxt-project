@@ -109,7 +109,7 @@ export default {
           propertyGarages: 3
         }
       ],
-      pageCount: 3 // Example page count
+      pageCount: 3
     };
   }
 };

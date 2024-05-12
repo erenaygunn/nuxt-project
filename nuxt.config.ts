@@ -10,8 +10,7 @@ export default defineNuxtConfig({
         { src: 'lib/bootstrap/js/bootstrap.min.js'},
         { src: 'lib/easing/easing.min.js' },
         { src: 'lib/owlcarousel/owl.carousel.min.js'},
-        { src: 'lib/scrollreveal/scrollreveal.min.js'},
-        { src: 'js/main.js' },
+        { src: 'lib/scrollreveal/scrollreveal.min.js'},   
       ],
       link: [
         { rel: 'stylesheet', href: 'lib/bootstrap/css/bootstrap.min.css' },
