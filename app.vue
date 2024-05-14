@@ -6,7 +6,14 @@
 </template>
 
 <script setup>
-onMounted(() => {
-    import("./public/js/main.js")
-})
+    const route = useRoute();
+    import { executeScript } from "./public/js/main.js"
+
+    onMounted(() => {
+        executeScript()
+    })
+
+    watch(() => route.path, () => {
+        executeScript()
+    })
 </script>
